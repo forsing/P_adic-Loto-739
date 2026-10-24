@@ -3,9 +3,9 @@ import numpy as np
 import random
 
 # Odkomentariši fajl koji testiraš:
-# putanja_fajla = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv'
-# putanja_fajla = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv' 
-putanja_fajla = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv'
+# putanja_fajla = '/data/loto7_4708_k85.csv'
+# putanja_fajla = '/data/loto7_4708_k85_loto_2976.csv' 
+putanja_fajla = '/data/loto7_4708_k85_loto_plus_1732.csv'
 
 MAX_BROJ = 39
 BROJ_KUGLICA = 7
@@ -68,11 +68,11 @@ print()
 print(f"Predloženi p-adski tiket (p={P_PROST}): {novi_tiket}")
 print()
 """
-Predloženi p-adski tiket (p=7): [10, 14, 16, 27, 28, 32, 33]
+Predloženi p-adski tiket (p=7): [10, x, 16, y, 28, z, 33]
 
-Predloženi p-adski tiket (p=7): [1, 3, 18, 34, 36, 38, 39]
+Predloženi p-adski tiket (p=7): [1, x, 18, y, 36, z, 39]
 
-Predloženi p-adski tiket (p=7): [10, 14, 16, 26, 27, 33, 34]
+Predloženi p-adski tiket (p=7): [10, x, 16, y, 27, z, 34]
 """
 
 
